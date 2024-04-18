@@ -38,7 +38,7 @@ calculateButton.addEventListener('click', () => {
         console.log("Tamaño final de tensorA: ", getTensor2dByteSize(tensorA));
         console.log("Cantidad de tensores: ", tensorQuantity);
     });
+    console.log("Cantidad de tensores en memoria: ", tf.memory().numTensors);
 })
 
 
-console.log("Cantidad de tensores en memoria: ", tf.memory().numTensors);
